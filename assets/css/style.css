@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --font-family: 'Poppins', sans-serif;
+    --counter-hover: #a3a3a3;
+    --link-hover: #ddd;
+    --purple-button-color: #a747f1;
+    --purple-button-hover: #8239bb;
+}
+
+* {
+    font-family: var(--font-family);
+}
+
+.banner {
+    background-image: url('../img/banner.webp');
+    background-size: cover;
+}
+
+.counter:hover {
+    background-color: var(--counter-hover) !important;
+}
+
+.elements {
+    font-size: 0.9rem;
+}
+
+.btn-payment {
+    border-color: var(--purple-button-color);
+    background-color: var(--purple-button-color);
+}
+
+.btn-payment:hover {
+    background-color: var(--purple-button-hover);
+}
+
+.offer-link:hover {
+    color: var(--link-hover) !important;
+}
